@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+        h2  {
+            margin-top: 30px;
+            text-align: center;
+        }
+        form {
+            width: 500px;
+            height: 500px;
+            background-color: gray;
+            color: black;
+            text-align: center;
+        }
+        input {
+            display: block;
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+        textarea {
+            width: 60%;
+            height: 100px;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 20px;
+        }
+        button {
+            text-align: center;
+            width: 30%;
+            font-size: 30px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h2>Contact Us</h2>
+        Enter Name:
+        <input type="text" placeholder="Enter your name" name="name" autocomplete="off"/>
+        Enter Email:
+        <input type="email" placeholder="Enter your email" name="email"autocomplete="off"/>
+       Enter your Number
+        <input type="number" placeholder="Enter your mob no" name="no" autocomplete="off"/>
+        <p>Enter you address for online delivery</p>
+        <textarea></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

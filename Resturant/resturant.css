@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    background-image: url("foodback2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+nav {
+    width: 100vw;
+    height: 14vh;
+    background-color: orangered;
+    color: white;
+}
+nav h3 {
+    width: 50%;
+    float: left;
+    height: 14vh;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li {
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 200px;
+    font-size: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    background-color: white;
+    color: blue;
+    border-radius: 3px;
+    transition: .5s;
+}
+@media only screen and (max-width: 568px)
+{
+  nav h3 {
+    font-size: 30px;
+  }
+  nav ul li {
+    font-size: 16px;
+  }
+}
+#main {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+#main h2 {
+    font-size: 60px;
+    color: orangered;
+}
+#main p {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    background: orangered;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+#main button {
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    color: orangered;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 568px) {
+    #main {
+        margin-top: 100px;
+        width: 100vw;
+        height: 400px;
+    }
+    #main h2 {
+        font-size: 30px;
+    }
+    #main p {
+        width: 50%;
+        font-size: 18px;
+    }
+    #main button {
+        font-size: 20px;
+    }
+}
+#foodname {
+    width: 100%;
+    height: 100px;
+    background: orangered;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+#sec1 {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+ #sec1 .food {
+    flex-basis: 25%; 
+    box-shadow: 0px 0px 30px 10px blur gray;
+}
+#sec1 .food img {
+    width: 100%;
+    height: 350px;
+}   
+
+.food p {
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+.food button {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+@media only screen and (max-width: 568px)
+{
+    #foodname {
+        font-size: 30px;
+    }
+    #sec1 {
+         flex-direction: column;
+         height: auto;
+    }
+    #sec1 .food {
+        flex-basis: 100%;
+    }
+    .food p, .food button {
+        font-size: 20px;
+    }
+    .food button {
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+}
+#deals {
+    width: 100vw;
+    height: 14vh;
+    background-color: orangered;
+}
+#deals h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+#sec2 {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+#sec2 .deal {
+    flex-basis: 25%;
+}
+#sec2 .deal img {
+    width: 100%;
+    height: 350px;
+}
+#sec2 .deal p {
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+#sec2 .deal button {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+@media only screen and (max-width: 568px) {
+#deals h1 {
+    font-size: 30px;
+}
+  #sec2 {
+    flex-direction: column;
+    height: auto;
+}
+#sec2 .deals {
+    flex-basis: 100vw;
+}
+#sec2 button{
+    margin-bottom: 10px;
+}
+}
+footer div{
+    width: 100%;
+    height: 70px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 30px;
+}
